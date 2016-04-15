@@ -14,5 +14,4 @@ angular.module('churchAngApp')
       'AngularJS',
       'Karma'
     ];
-    this.about = '/about';
   });
