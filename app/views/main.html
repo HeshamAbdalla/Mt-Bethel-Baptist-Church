@@ -1,0 +1,70 @@
+<!-- Main --->
+<div id="first-section" class="parallax-container">
+  <div class="parallax"><img src="images/section3.jpg"></div>
+</div>
+<div class="section white">
+  <div class="row container">
+    <h2 class="header">Spreading the Gospel and Making Disciples</h2>
+    <p class="grey-text text-darken-3 lighten-3 first-p">Reaching Arkadelphia, Clark County, Arkansas and the world with the Gospel of Jesus Christ one person at a time.</p>
+  </div>
+</div>
+<!-- Section 2 -->
+<div class="parallax-container">
+  <div class="parallax"><img src="images/section4.jpg"></div>
+</div>
+<div class="section white">
+  <div class="row container">
+    <h2 class="header">Events & Service </h2>
+    <div class="divider"></div>
+    <div class="col s12">
+      <h4> March Events </h4>
+    </div>
+    <div class="col s6">
+      <p class="grey-text text-darken-3 lighten-3">Easter services March 27th </p>
+    </div>
+    <div class="col s6">
+      <p class="grey-text text-darken-3 lighten-3">Easter services March 27th </p>
+    </div>
+    <div class="col s12">
+      <div class="divider"></div>
+      <h4> July Events </h4>
+    </div>
+    <div class="col s6">
+      <p class="grey-text text-darken-3 lighten-3">Easter services March 27th </p>
+    </div>
+    <div class="col s6">
+      <p class="grey-text text-darken-3 lighten-3">Easter services March 27th </p>
+    </div>
+    <div class="col s12">
+      <div class="divider"></div>
+      <h4> Weekly Gathering</h4>
+    </div>
+    <div class="col s6">
+      <h5> Sundays </h5>
+      <p class="grey-text text-darken-3 lighten-3">10 AM LIFE GROUPS</p>
+      <p class="grey-text text-darken-3 lighten-3">11 AM MORNING SERVICE</p>
+      <p class="grey-text text-darken-3 lighten-3">5  PM SMALL GROUPS & REFUGE</p>
+    </div>
+    <div class="col s6">
+      <h5> Wednesday </h5>
+      <p class="grey-text text-darken-3 lighten-3">6 PM SMALL GROUPS & REFUGE</p>
+    </div>
+  </div>
+</div>
+<script>// jshint devel:true
+$(function(){
+  $('.parallax').parallax();
+  $(".button-collapse").sideNav();
+  $('nav').hide();
+  $('.parallax').hide();
+  var navScroll = [
+    {selector: '.hero-text-box', offset: 1200, callback: function (){
+      $('nav').fadeIn("slow");
+    } },
+    {selector: '.parallax-container', offset: 100, callback: function(){
+      $('.parallax').fadeIn("slow");
+    }}
+  ];
+  Materialize.scrollFire(navScroll);
+});
+</script>
