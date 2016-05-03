@@ -1,9 +1,5 @@
 #Mt-Bethel-Baptist-Church
 
-## Build & development
+##This website was build for a nonprofit at no cost.
 
-Run `grunt` for building and `grunt serve` for preview.
-
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
+## ChangeForge.org
